@@ -23,6 +23,7 @@ java com.barasingha.task.PhonebookDriver
 
 
 2. Key Design Decisions and Assumptions
+   
 2.1. Project Architecture
 The project follows a modular structure to separate concerns:
 Contact.java: A Plain Old Java Object (POJO) representing the data model.
