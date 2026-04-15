@@ -9,16 +9,16 @@ Terminal/IDE: Access to a command-line interface or an IDE (like Eclipse, STS).
 
 Steps to Run :-
 
-Clone the Repository:
+Clone the Repository:- 
 git clone https://github.com/Swapnil-K24/Phonebook-Application.git
 cd phonebook-system
 
-Compile the Code:
+Compile the Code:- 
 javac com/barasingha/task/*.java
 
 Execute the Application:
 
-Run the driver class using:
+Run the driver class using:- 
 java com.barasingha.task.PhonebookDriver
 
 
