@@ -10,7 +10,7 @@ Terminal/IDE: Access to a command-line interface or an IDE (like Eclipse, STS).
 Steps to Run :-
 
 Clone the Repository:- 
-git clone https://github.com/Swapnil-K24/Phonebook-Application.git
+_git clone https://github.com/Swapnil-K24/Phonebook-Application.git_
 cd phonebook-system
 
 Compile the Code:- 
