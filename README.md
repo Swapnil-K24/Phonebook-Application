@@ -21,6 +21,7 @@ Run the driver class using:
 java com.barasingha.task.PhonebookDriver
 
 
+
 2. Key Design Decisions and Assumptions
 2.1. Project Architecture
 The project follows a modular structure to separate concerns:
@@ -39,12 +40,14 @@ Case Sensitivity: Search by name is case-insensitive (e.g., "John" will match "j
 Input Formatting: The system assumes standard numeric input for IDs and phone numbers; non-numeric input in numeric fields may trigger a InputMismatchException.
 
 
+
 3. Data Storage
 Storage Type: In-Memory
 Technology: The application uses a java.util.ArrayList to store Contact objects.
 Persistence: Data is not persistent. All contact information is stored in the RAM while the program is running.
 Lifecycle: Once the application is closed or the "Exit" option is selected, all stored contacts are cleared.
 Note: This design makes the application lightweight and fast for testing purposes without requiring a database setup or file I/O permissions.
+
 
 
 4.  Features
